@@ -9,7 +9,7 @@ Here are (at least) three things I learned from [The Ruby Koans](http://rubykoan
 2) I can call .methods on objects and classes to see what methods are available to call. This allows me to check for ways to creatively remove roadblocks.
 3) *args - this means that the method accepts a variable number of arguments in an array called args
 
-<h1>Here were my other notes/questions/epiphanies that I took while completing the Koans.</h1>
+<h3>Here were my other notes/questions/epiphanies that I took while completing the Koans.</h3>
 
 about_arrays.rb
 - Line 42-44
