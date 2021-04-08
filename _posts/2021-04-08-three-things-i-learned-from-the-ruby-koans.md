@@ -5,9 +5,13 @@ title: Three things I learned from The Ruby Koans
 
 Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):
 
-1) attr_reader can automatically define an accessor. This will be helpful for writing my own methods for classes which is something I want to become more comfortable with.
-2) I can call .methods on objects and classes to see what methods are available to call. This allows me to check for ways to creatively remove roadblocks.
-3) *args - this means that the method accepts a variable number of arguments in an array called args
+<div>
+  <ol>
+    <li>attr_reader can automatically define an accessor. This will be helpful for writing my own methods for classes which is something I want to become more comfortable with.</li>
+    <li>I can call .methods on objects and classes to see what methods are available to call. This allows me to check for ways to creatively remove roadblocks.</li>
+    <li>*args - this means that the method accepts a variable number of arguments in an array called args</li>
+  </ol>
+</div>
 
 <h3>Here were my other notes/questions/epiphanies that I took while completing the Koans.</h3>
 
