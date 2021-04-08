@@ -10,6 +10,7 @@ Here are (at least) three things I learned from [The Ruby Koans](http://rubykoan
 3) *args - this means that the method accepts a variable number of arguments in an array called args
 
 <h1>****Here were my other notes/questions/epiphanies that I took while completing the Koans.****</h1>
+
 about_arrays.rb
 - Line 42-44
 - Why is [4,0] an empty array and [5,0] is nil
