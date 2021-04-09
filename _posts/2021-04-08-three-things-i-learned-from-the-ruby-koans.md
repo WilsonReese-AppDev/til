@@ -73,7 +73,7 @@ about_class_methods
 about_message_passing
 - *args just means an array
 - &block, is just saying that there is a block
-- what is super?
+- what is super? Allows us to call from the class's ancestor and call the method that exists there
 
 about_proxy_object_project
 - wrote my own method missing one
