@@ -12,3 +12,24 @@ In the exercism assignment I learned a couple things that seemed practically use
 --simply trying to check a condition => use the appropriate method for a hash or array
 
 Examples: 
+To check a hash for a key:
+- hash.key?(some_key)
+To check an array for an element 
+- array.includes?(some_element)
+
+To downcase all elements in an array
+new_array = array.map {|element| element.downcase }
+
+instead of
+new_array=[]
+array.each do |element|
+new_array.push(element.downcase)
+end
+
+4) Using .map shorthand
+- .map(&:to_i) => I used this on one of the exercism, matrix I think.
+- ["11", "12", "13"].map(&:to_i)
+- => [11, 12, 13]
+- There is more to it than this. Can change strings to symbols (I think?). But get more familiar with .map and see what I can do.
+
+Good article on .map: https://www.rubyguides.com/2018/10/ruby-map-method/#:~:text=Map%20is%20a%20Ruby%20method,string%20%26%20make%20every%20character%20UPPERCASE.
