@@ -7,24 +7,24 @@ In the exercism assignment I learned a couple things that seemed practically use
 - I have also been using .each to look at each element in an array or hash and check if it meets some condition.
 - Using this has a catch all method has made my code a little messy.
 - Moving forward, I need to figure it out if I am 
--- changing all the elements  => use .map
--or 
---simply trying to check a condition => use the appropriate method for a hash or array
+- changing all the elements  => use .map
+- or 
+- simply trying to check a condition => use the appropriate method for a hash or array
 
 Examples: 
-To check a hash for a key:
+- To check a hash for a key:
 - hash.key?(some_key)
-To check an array for an element 
+- To check an array for an element 
 - array.includes?(some_element)
 
-To downcase all elements in an array
-new_array = array.map {|element| element.downcase }
+- To downcase all elements in an array
+- new_array = array.map {|element| element.downcase }
 
-instead of
-new_array=[]
-array.each do |element|
-new_array.push(element.downcase)
-end
+- instead of
+- new_array=[]
+- array.each do |element|
+-    new_array.push(element.downcase)
+- end
 
 4) Using .map shorthand
 - .map(&:to_i) => I used this on one of the exercism, matrix I think.
